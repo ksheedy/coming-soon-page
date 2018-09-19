@@ -8,10 +8,12 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: #dfdddb;
 }
 
 body {
   margin: 0;
+  background-color: #fff;
 }
 
 a {
@@ -20,6 +22,10 @@ a {
 
 a:hover {
   color: var(--color-primary);
+}
+
+.hero-banner {
+  max-height: 500px;
 }
 
 .yellow-band {
