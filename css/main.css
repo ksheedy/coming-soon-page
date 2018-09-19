@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 .hero-banner {
@@ -34,4 +34,9 @@ a:hover {
 
 .classic-rule {
   border-top: 5px solid #000;
+}
+
+footer {
+  background-color: #fff;
+  color: var(--color-neutral-grey);
 }
