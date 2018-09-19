@@ -11,18 +11,30 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,700" rel="stylesheet">
+  <script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "images/portrait-overlay.jpg";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "images/portrait.jpg";
+    }
+  </script>
 </head>
 <body class="wrapper margin-0">
-  <header class="push">
+  <header class="push-2">
       <div class="embed embed-5by1">
         <img class="embed-item hero-banner img-flex" src="images/headerimg.jpg" alt="">
       </div>
-
       <hr class="yellow-band">
   </header>
 
   <main class="grid push-2">
-    <div class="unit unit-xs-1 unit-s-1 unit-offset-m-1-2 unit-offset-l-1-2 unit-offset-xl-1-2">
+    <div class="unit unit-xs-1-hidden unit-s-hidden unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter">
+      <div class="portrait embed embed-2by3">
+        <img class="embed-item img-flex" src="images/portrait.jpg" onMouseOver="MouseRollover(this)" onMouseOut="MouseOut(this)" alt="">
+      </div>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
       <h1 class="tena push-1-4 gutter">Katie Sheedy</h1>
       <div class="gutter">
         <hr class="classic-rule">
@@ -36,7 +48,7 @@
   </main>
 
   <footer class="footer island-1-2">
-    <div class="text-center">
+    <div class="gutter">
       <p class="nano">© Katie Sheedy 2018</p>
     </div>
   </footer>
