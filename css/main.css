@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #efc10f;
+  --color-primary-light: #dfdddb;
+  --color-primary-dark: #676869;
+  --color-neutral-grey: #9fa3a4;
+  --font-primary: "Work Sans", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+.yellow-band {
+  border-top: 75px solid #efc10f;
+}
+
+.classic-rule {
+  border-top: 5px solid #000;
+}
